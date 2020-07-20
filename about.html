@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre nosotros</title>
+    <link rel="icon" href="favicon.png" type="image/png" />
+
+    <!-- CSS only -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+
+    <!-- estilos -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"
+    />
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- header o navbar -->
+    <nav class="navbar navbar-light bg-light navbar-expand-lg">
+      <div class="container">
+        <!-- logo -->
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="img/logo.png"
+            width="60"
+            height="60"
+            class="d-inline-block align-center"
+            alt="logo"
+            loading="lazy"
+          />
+          <div class="d-inline d-lg-none">BRT</div>
+          <div class="d-none d-lg-inline">Better Restaurants Tucumán</div>
+        </a>
+
+        <!-- menu con enlaces -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Críticas
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="#">Cervecerias</a>
+                <a class="dropdown-item" href="#">Restaurantes</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Recomendaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Recetas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="about.html"
+                >Sobre Nosotros<span class="sr-only">(current)</span></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- breadcrumb -->
+    <nav aria-label="breadcrumb">
+      <div class="container">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Inicio</a></li>
+          <li class="breadcrumb-item active" aria-current="page">
+            Sobre nosotros
+          </li>
+        </ol>
+      </div>
+    </nav>
+    <!-- integrantes -->
+    <section class="team">
+      <div class="container">
+        <h2 class="mb-5">Nuestros criticos...</h2>
+        <div class="row">
+          <div class="col-12 col-lg-4">
+            <div class="d-flex flex-column align-items-center team-item mx-auto mb-5 mb-lg-0">
+              <img
+            class="img-fluid rounded-circle mb-3 shadow"
+            src="img/critico1.jpg"
+            alt="critico-1"
+            />
+            <h5>Maria Martinez</h5>
+            <p>cheff del hotel catalinas</p></div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="d-flex flex-column align-items-center team-item mx-auto mb-5 mb-lg-0">
+              <img
+              class="img-fluid rounded-circle mb-3 shadow"
+              src="img/critico2.jpg"
+              alt="critico-1"
+              />
+              <h5>Marcos Marquez</h5>
+              <p>Critico Gastronomico Frances</p></div>
+          </div>
+          <div class="col-12 col-lg-4">
+            <div class="d-flex flex-column align-items-center team-item mx-auto mb-5 mb-lg-0">
+              <img
+              class="img-fluid rounded-circle mb-3 shadow"
+              src="img/critico3.jpg"
+              alt="critico-1"
+              />
+              <h5>Luciana Luciardi</h5>
+              <p>CEO Revista Comidas</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contactenos -->
+    <section class="contact container mb-5 text-center">
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#exampleModal">
+  Contactanos
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Contactenos</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Ingrese su email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Mensaje</label>
+            <textarea name="formMessage" class="form-control" id="formMessage" cols="30" rows="10"></textarea>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-dark text-white">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-md-3 p-3 text-center">
+            <img class="img-fluid" width="100" src="img/logo.png" alt="logo" />
+          </div>
+          <div class="col-12 col-md-3 text-center py-4 order-2">
+            <ul class="list-inline d-flex justify-content-around">
+              <li class="list-inline-item h2">
+                <a class="text-white" href="#"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+              </li>
+              <li class="list-inline-item h2">
+                <a class="text-white" href="#"
+                  ><i class="fab fa-twitter" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li class="list-inline-item h2">
+                <a class="text-white" href="#"
+                  ><i class="fab fa-instagram" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li class="list-inline-item h2">
+                <a class="text-white" href="#"
+                  ><i class="fab fa-youtube" aria-hidden="true"></i
+                ></a>
+              </li>
+              <li class="list-inline-item h2">
+                <a class="text-white" href="#"
+                  ><i class="fab fa-whatsapp" aria-hidden="true"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="col-12 col-md-6 p-3 order-1 text-center d-flex flex-column"
+          >
+            <h5>
+              Información de contacto
+            </h5>
+            <div class="border-bottom w-25 align-self-center"></div>
+            <div class="font-weight-bold">
+              Better Restaurants Tucumán
+            </div>
+            <ul class="list-unstyled pl-1">
+              <li>Calle Falsa 1234 - San Miguel de Tucumán</li>
+              <li>mail@mail.com</li>
+              <li>+543812457986</li>
+              <li>Tucumán</li>
+            </ul>
+          </div>
+        </div>
+        <div class="small text-center pt-4 pb-1">
+          <i class="far fa-copyright"></i> BRT 2020 - Todos los derechos
+          reservados.
+        </div>
+      </div>
+    </footer>
+    <!-- JS, Popper.js, and jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
