@@ -1,2 +1,2 @@
 # Titulo
-Este es un proyecto de busqueda de restoranes. por favor, no robar
+Este es un proyecto de busqueda de restoranes. POR FAVOR! NO ME ROBEN.
